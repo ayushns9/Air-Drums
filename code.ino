@@ -37,7 +37,7 @@ void handleRoot() {
 
 void setup(void){
   Serial.begin(9600);
-  Serial.println("AYUSH CHUTIYA HAI");
+  Serial.println("AYUSH");
   Wire.begin(13,12);//d76
   Wire.beginTransmission(MPU_addr);
   Wire.write(0x6B);
